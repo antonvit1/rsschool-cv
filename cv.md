@@ -1,7 +1,7 @@
-![Photo](https://drive.google.com/drive/my-drive)
+![Photo](/20221205_153928.jpg)
 
-**name:** Anton
-**surname:** Viter
+* **name:** Anton
+* **surname:** Viter
 
 # Contact
 
@@ -36,3 +36,6 @@ function multiply(a, b){
  return a * b
 }
 ```
+
+# Completed projects
+[https://github.com/antonvit1/rsschool-cv/blob/gh-pages/cv.md]
