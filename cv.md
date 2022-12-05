@@ -1,9 +1,8 @@
 ![Photo](/20221205_153928.jpg)
 
-* **name:** Anton
-* **surname:** Viter
+ **Anton Viter**
 
-# Contact
+# Contacts
 
 * **phone:** +375336016927
 * **email:** antonbntu@gmail.com
