@@ -37,4 +37,4 @@ function multiply(a, b){
 ```
 
 # Completed projects
-[https://github.com/antonvit1/rsschool-cv/blob/gh-pages/cv.md]
+[CV](https://antonvit1.github.io/rsschool-cv/cv)
