@@ -1,13 +1,13 @@
-![Photo](D:\Projects\rsschool-cv)
+![Photo](https://drive.google.com/drive/my-drive)
 
 **name:** Anton
 **surname:** Viter
 
 # Contact
 
-**phone:** +375336016927
-**email:** antonbntu@gmail.com
-**Discord nikname:** anton#4556
+* **phone:** +375336016927
+* **email:** antonbntu@gmail.com
+* **Discord nikname:** anton#4556
 
 # About me
 
@@ -15,7 +15,8 @@ I want to understand and work with javascript language. I don't have an experien
 
 ***Skills***
 
-Html, CSS
+* Html 
+* CSS
 
 ***Experience***
 
@@ -23,13 +24,13 @@ Html, CSS
 
 ***Education***
 
-BNTY, ATF 
+BNTU, ATF 
 
 ***Level English***
 
 A2
 
-# Example cods
+# Example of code
 ```
 function multiply(a, b){
  return a * b
