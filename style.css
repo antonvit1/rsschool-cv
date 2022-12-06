@@ -1,20 +1,45 @@
-html body {
-    font-family: Arial;
-    font-size: 12pt;
-    background: red;
+body {
+  font-family: Arial;
+  font-size: 12pt;
+  background: grey;
 }
-h5{
-    padding-left: 45px;
-    
+header {
+  display: flex;
+  justify-content: space-around;
 }
-h2{ 
-    margin-left: 30px;
-color:rgb(1, 2, 1);
-font-size: 24pt;
+img {
+  margin-left: 100px;
 }
-div1{
-    text-align: right;
-    width: 150px;
-    color:blueviolet;
+.nameContact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: blueviolet;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+}
+.discription {
+    display: flex;
+    align-items: flex-start;
+
 }
 
+.discripText {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
