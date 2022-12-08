@@ -1,19 +1,23 @@
 body {
   font-family: Arial;
   font-size: 12pt;
-  background: grey;
+  background: white;
+  width: 70%;
+  margin: auto;
 }
 header {
   display: flex;
   justify-content: space-around;
 }
 img {
-  margin-left: 100px;
+  margin-left: 20px;
+  border-radius: 50%;
+  border: 2px solid black;
 }
 .nameContact {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .name {
   display: flex;
@@ -26,20 +30,25 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  color: blueviolet;
+  color: black;
 }
 .cont {
   display: flex;
   flex-direction: column;
 }
-.discription {
-    display: flex;
-    align-items: flex-start;
-
+.description {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 30px;
 }
 
-.discripText {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.descripText {
+  display: flex;
+  margin-left: 10%;
+
+  width: 80%;
 }
+.header {
+  width: 200px;
+}
+
