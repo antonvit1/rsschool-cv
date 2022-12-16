@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: space-around;
 }
-img {
+.foto {
   margin-left: 20px;
   border-radius: 50%;
   border: 2px solid black;
@@ -51,4 +51,28 @@ img {
 .header {
   width: 200px;
 }
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10%;
+}
+.schoolUrl {
+margin:center;
+height: 20%;
+width:20%;
+}
+.ScoolGitUrl{
+  display: flex;
+  justify-content: center;
+  justify-content:space-around
+}
+.yearFoto {
+  display: flex;
+   justify-content:space-around
+}
+.Year {
+  padding: 2%;
+}
+
 
