@@ -52,26 +52,23 @@ header {
 .header {
   width: 200px;
 }
+main {
+  padding-bottom: 30px;
+}
 footer {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 10%;
+  justify-content: space-between;
+  margin-top: 15px;
 }
-.schoolUrl {
-  margin: center;
-  height: 20%;
+.schoolGitUrl {
+  display: flex;
+  justify-content: space-between;
   width: 20%;
 }
-.ScoolGitUrl {
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
+.year {
+  padding-left: 10px;
 }
-.yearFoto {
-  display: flex;
-  justify-content: space-around;
-}
-.Year {
-  padding: 2%;
+.schoolUrl {
+  height: 50%;
+  width: 50%;
 }
