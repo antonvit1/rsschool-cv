@@ -1,55 +1,103 @@
-<!doctype html>
-<html lang ="en">
-    <head>
-        <meta charset = "utf-8">
-        <meta name="description" content="The HTML5 Herald">
-        <meta name="author" content="SitePoint">
-
-        <link rel="stylesheet" href="styles.css?v=1.0">
-        <title> CV Anton Viter</title>
-
-    </head>
-    <body>
-        <header>
-            <img src= "20221205_153928.jpg">
-            <h2>Anton Viter</h2>
-                        <h5>Front-end developer</h5>
-                <div>         
-        <b>location:</b> 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css?v=1.0" />
+    <title>CV Anton Viter</title>
+  </head>
+  <body>
+    <header>
+      <img class="foto" src="20221205_153928.jpg" alt="photo" />
+      <div class="nameContact">
+        <nav>
+          <ul class="nav">
+            <li><a href="#aboutMe">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#englishLevel">English level</a></li>
+            <li><a href="#exampleOfCode">Example of code</a></li>
+            <li><a href="#workExpirience">Work expirience</a></li>
+          </ul>
+        </nav>
+        <div class="name">
+          <h1>Anton Viter</h1>
+          <h2>Front-end developer</h2>
+        </div>
+        <div class="contact">
+          <div class="cont">
+            <strong>location:</strong>
             Belarus, Minsk
-        
-        
-        <b>phone:</b>
+          </div>
+          <div class="cont">
+            <strong>Phone:</strong>
             +375336016927
-        
-    
-        <b>Email:</b> 
-        antonbntu@gmail.com
-        
-   
-        <b>Discord nikname:</b>
+          </div>
+          <div class="cont">
+            <strong>Email:</strong>
+            antonbntu@gmail.com
+          </div>
+          <div class="cont">
+            <strong>Discord nikname:</strong>
             anton#4556
-        
-    </div>
-    
+          </div>
+        </div>
+      </div>
     </header>
-    <hr>
-    <h4>About me</h4>
-    I want to understand and work with javascript language.
-    I dont have an experience, but I hope I can get it here.
-    <h4>Skills</h4>
-     Html CSS
-     <h4>Experience</h4>
-     ---------
-     <h4>Education</h4>
-     BNTU, ATF
-     <h4>Level English</h4>
-     A2
-     <h4>Example of code</h4>
-     function multiply(a, b){
-        return a * b
-       }
-
-
-      </body>
+    <main>
+      <hr />
+      <div id="aboutMe" class="description">
+        <strong class="header">About me</strong>
+        <div class="descripText">
+          I want to understand and work with JavaScript language. I don't have
+          an experience, but I hope I can get it here.
+        </div>
+      </div>
+      <div id="skills" class="description">
+        <strong class="header">Skills:</strong>
+        <div class="descripText">
+          <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ol>
+        </div>
+      </div>
+      <div id="experience" class="description">
+        <strong class="header">Experience:</strong>
+        <div class="descripText">---------</div>
+      </div>
+      <div id="education" class="description">
+        <strong class="header">Education:</strong>
+        <div class="descripText">BNTU, ATF</div>
+      </div>
+      <div id="englishLevel" class="description">
+        <strong class="header">English level:</strong>
+        <div class="descripText">A2</div>
+      </div>
+      <div id="exampleOfCode" class="description">
+        <strong class="header">Example of code:</strong>
+        <code class="descripText code"
+          >function multiply(a, b) {<br />
+          return a * b;<br />
+          }</code
+        >
+      </div>
+      <div id="workExpirience" class="description">
+        <strong class="header">Work expirience:</strong>
+        <div class="descripText">
+          <a href="https://antonvit1.github.io/rsschool-cv/">CV Anton Viter</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="schoolGitUrl">
+        Create by
+        <a href="https://github.com/antonvit1">antonvit1</a>
+        <div class="Year">2022</div>
+      </div>
+      <a href="https://rs.school/js/"
+        ><img class="schoolUrl" src="rs_school_js.svg" alt="logo"
+      /></a>
+    </footer>
+  </body>
 </html>

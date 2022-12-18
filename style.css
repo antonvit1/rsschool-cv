@@ -1,0 +1,90 @@
+html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  font-size: 12pt;
+  background: white;
+  width: 70%;
+  margin: auto;
+  height: 100%;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+.foto {
+  margin-left: 20px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.nameContact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: black;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  padding-right: 4px;
+}
+.description {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+
+.descripText {
+  display: flex;
+  margin-left: 10%;
+
+  width: 80%;
+}
+.header {
+  width: 200px;
+}
+main {
+  padding-bottom: 30px;
+  flex-grow: 1;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.schoolGitUrl {
+  display: flex;
+  justify-content: space-between;
+  min-width: 200px;
+}
+.year {
+  padding-left: 30px;
+}
+.schoolUrl {
+  height: 20px;
+  width: 100px;
+}
