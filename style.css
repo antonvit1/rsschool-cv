@@ -10,7 +10,7 @@ body {
   width: 70%;
   margin: auto;
   height: 100%;
-}
+  }
 header {
   display: flex;
   justify-content: space-around;
@@ -33,6 +33,15 @@ header {
   padding: 10px;
   list-style-type: none;
   flex-wrap: wrap;
+}
+.link_page {
+  text-decoration: none;
+}
+.link_page:hover {
+  color:darkslategray;
+}
+.link_page:visited {
+  color:cadetblue;
 }
 .name {
   display: flex;
@@ -60,9 +69,19 @@ header {
 
 .descripText {
   display: flex;
+  flex-direction: column;
   margin-left: 10%;
-
+  text-decoration: none;
   width: 80%;
+}
+.url {
+  text-decoration: none;
+}
+.url:hover {
+  font-size: 20px;
+}
+.url:visited {
+  color:cadetblue;
 }
 .header {
   width: 200px;
@@ -80,6 +99,15 @@ footer {
   display: flex;
   justify-content: space-between;
   min-width: 200px;
+}
+.url_git {
+  text-decoration: none;
+}
+.url_git:hover {
+  font-size: 20px;
+}
+.url_git:visited {
+  color:cadetblue;
 }
 .year {
   padding-left: 30px;
