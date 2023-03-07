@@ -10,7 +10,7 @@ body {
   width: 70%;
   margin: auto;
   height: 100%;
-  }
+}
 header {
   display: flex;
   justify-content: space-around;
@@ -38,11 +38,11 @@ header {
   text-decoration: none;
 }
 .link_page:hover {
-  color:rgb(12, 182, 182);
+  color: rgb(12, 182, 182);
   font-size: 16px;
 }
 .link_page:visited {
-  color:rgb(142, 12, 53);
+  color: rgb(142, 12, 53);
 }
 .name {
   display: flex;
@@ -82,7 +82,7 @@ header {
   font-size: 20px;
 }
 .url:visited {
-  color:cadetblue;
+  color: cadetblue;
 }
 .header {
   width: 200px;
@@ -108,7 +108,7 @@ footer {
   font-size: 20px;
 }
 .url_git:visited {
-  color:cadetblue;
+  color: cadetblue;
 }
 .year {
   padding-left: 30px;
