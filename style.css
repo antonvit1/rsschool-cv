@@ -6,7 +6,7 @@ body {
   flex-direction: column;
   font-family: Arial;
   font-size: 12pt;
-  background: white;
+  background: rgb(244, 240, 240);
   width: 70%;
   margin: auto;
   height: 100%;
@@ -18,7 +18,7 @@ header {
 .foto {
   margin-left: 20px;
   border-radius: 50%;
-  border: 2px solid black;
+  border: 1px solid rgb(106, 98, 98);
 }
 .nameContact {
   display: flex;
@@ -38,10 +38,11 @@ header {
   text-decoration: none;
 }
 .link_page:hover {
-  color:darkslategray;
+  color:rgb(12, 182, 182);
+  font-size: 16px;
 }
 .link_page:visited {
-  color:cadetblue;
+  color:rgb(142, 12, 53);
 }
 .name {
   display: flex;
